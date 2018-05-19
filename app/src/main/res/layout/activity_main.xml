@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anujdawar.busservice3.MainActivity"
+    android:background="@color/cardBack">
+
+    <ListView
+        android:id="@+id/myListID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardBack"
+        android:divider="@color/cardBack"
+        android:dividerHeight="10dp"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:padding="10dp"
+        android:scrollbars="horizontal|vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="No Buses Found For This Route"
+        android:textSize="16sp"
+        android:id="@+id/noBusFoundTV"
+        android:textColor="@color/colorPrimaryDark" />
+
+</RelativeLayout>

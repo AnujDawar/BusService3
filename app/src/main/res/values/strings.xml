@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Bus Tracker</string>
+    <string name="textViewTextScreen2">Please Fill In The Details Of Your Journey</string>
+    <string name="textViewTextSplashScreen">Please wait while we connect you to the server</string>
+
+    <string-array name="sourceArray">
+        <item>Select a source</item>
+        <item>state1</item>
+        <item>state2</item>
+        <item>state3</item>
+        <item>state4</item>
+        <item>state5</item>
+        <item>state6</item>
+        <item>state7</item>
+    </string-array>
+
+    <string-array name="destinationArray">
+
+        <item>Select a destination</item>
+        <item>state1</item>
+        <item>state2</item>
+        <item>state3</item>
+        <item>state4</item>
+        <item>state5</item>
+        <item>state6</item>
+        <item>state7</item>
+    </string-array>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="google_maps_key">AIzaSyBPfN0kxFUJiT0ZGf2MY80rNmp_7g0jVPw</string>
+
+</resources>

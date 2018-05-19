@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background1"
+    tools:context="com.example.anujdawar.busservice3.Spash_Screen_Activity">
+
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="44dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="64dp" />
+
+    <ProgressBar
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:id="@+id/progressBarSplashScreen"
+        android:layout_marginTop="28dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/progressSplash"
+        android:layout_gravity="center" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="50dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/connectToServerTV"
+        android:layout_marginTop="28dp"
+        android:text="@string/textViewTextSplashScreen"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:gravity="center"
+        android:background="@color/textBoxBackground"
+        android:textColor="@color/textBoxColor"
+        android:layout_marginBottom="50dp"
+        android:textSize="22sp" />
+
+</LinearLayout>

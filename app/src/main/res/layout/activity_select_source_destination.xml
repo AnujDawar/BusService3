@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background1"
+    tools:context="com.example.anujdawar.busservice3.SelectSourceDestination">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewTextScreen2"
+        android:textSize="22sp"
+        android:layout_marginTop="18dp"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:textStyle="italic"
+        android:background="@color/textBoxBackground"
+        android:textColor="@color/textBoxColor" />
+
+    <Spinner
+        android:id="@+id/sourceSpinner"
+        android:layout_marginTop="88dp"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:textAlignment="center"
+        android:isScrollContainer="true"
+        android:background="@color/spinnerBackground" />
+
+    <Spinner
+        android:id="@+id/destinationSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="44dp"
+        android:textAlignment="center"
+        android:isScrollContainer="true"
+        android:background="@color/spinnerBackground" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="64dp" />
+
+    <Button
+        android:id="@+id/stateSelectButton"
+        style="@style/buttonStyle"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Confirm" />
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6A1B9A</color>
+    <color name="colorPrimaryDark">#4A148C</color>
+    <color name="colorAccent">#90CAF9</color>
+    <color name="progressSplash">#1976D2</color>
+    <color name="background1">#37474F</color>
+    <color name="textBoxBackground">#263238</color>
+    <color name="textBoxColor">#ECEFF1</color>
+    <color name="spinnerBackground">#B0BEC5</color>
+    <color name="cardBack">#E3F2FD</color>
+    <color name="cardFront">#B2EBF2</color>
+    <color name="textViewHeading">#3E2723</color>
+</resources>
